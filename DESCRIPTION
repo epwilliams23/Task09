@@ -1,0 +1,13 @@
+Package: task09
+Type: Package
+Title: tip.calc
+Version: 0.1.0
+Author: Evan Williams
+Maintainer: Evan Williams <ewilli99@vols.utk.edu>
+Description: An R package that calulates the required tip at 20% of the total bill.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr

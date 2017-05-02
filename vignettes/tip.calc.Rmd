@@ -1,0 +1,21 @@
+---
+title: "tip.calc"
+author: "Evan Williams"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{tip.calc}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+An R package that calulates the required tip at 20% of the total bill.
+
+```{r}
+library(tip.calc)
+
+tip.calc(6)
+tip.calc(20)
+
+
+```
